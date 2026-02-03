@@ -76,7 +76,7 @@ const Header = () => {
               color: 'primary.main',
             }}
           >
-            Michael<Box component="span" sx={{ color: 'action.active' }}>Chen</Box>
+            Basir <Box component="span" sx={{ color: 'action.active' }}>Khan</Box>
           </Link>
 
           {/* Desktop Nav */}
