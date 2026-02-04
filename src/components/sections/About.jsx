@@ -43,6 +43,7 @@ const About = () => {
                   '&:hover': {
                     transform: 'scale(1.05)',
                   },
+                  backgroundImage: 'url(/Images/Abbas.png)'
                   // If using an image later:
                   // backgroundImage: 'url(...)',
                   // backgroundSize: 'cover',

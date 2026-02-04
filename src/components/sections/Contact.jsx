@@ -46,7 +46,7 @@ const Contact = () => {
                   <EmailIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Email</Typography>
-                    <Typography variant="body1">michael.chen@professionalportfolio.com</Typography>
+                    <Typography variant="body1">BasirKhan@gmail.com</Typography>
                   </Box>
                 </Box>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                   <PhoneIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Phone</Typography>
-                    <Typography variant="body1">+1 (555) 123-4567</Typography>
+                    <Typography variant="body1">+92 (345) 47-60524</Typography>
                   </Box>
                 </Box>
 

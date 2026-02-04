@@ -21,7 +21,7 @@ const Footer = () => {
         }}>
           {/* Logo */}
           <Box sx={{ fontSize: '1.8rem', fontWeight: 900 }}>
-            Michael<Box component="span" sx={{ color: 'action.active' }}>Chen</Box>
+            Basir <Box component="span" sx={{ color: 'action.active' }}>Khan</Box>
           </Box>
 
           {/* Social Links */}
