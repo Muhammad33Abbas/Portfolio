@@ -3,7 +3,7 @@ import { Box, Container, Typography, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 
 const educationData = [
-  { year: '2025 – 2027', title: 'ADS CS', school: 'Swat University', desc: 'Currently pursuing an Associate Degree of Science in Computer Science.' },
+  { year: '2025 – 2029', title: 'BS CS', school: 'Swat University', desc: 'Currently pursuing a Bachelor of Science (BS) in Computer Science.' },
   { year: '2023 – 2025', title: 'FSC (In CS)', school: 'Swat board', desc: 'Higher Secondary School Certificate with a focus on Computer Science.' },
   { year: '2023', title: 'Matric', school: 'Swat board', desc: 'Secondary School Certificate.' },
   { year: '2023', title: 'Diploma In Information Technology', school: 'DIT', desc: 'Professional diploma covering essential IT skills and applications.' },

@@ -21,7 +21,7 @@ const Footer = () => {
         }}>
           {/* Logo */}
           <Box sx={{ fontSize: '1.8rem', fontWeight: 900 }}>
-            Basir <Box component="span" sx={{ color: 'action.active' }}>Khan</Box>
+            Muhammad <Box component="span" sx={{ color: 'action.active' }}>Abbas</Box>
           </Box>
 
           {/* Social Links */}
@@ -61,8 +61,8 @@ const Footer = () => {
           opacity: 0.7,
           fontSize: '0.9rem'
         }}>
-          <Typography variant="body2" component="p">&copy; 2023 Michael Chen. All rights reserved.</Typography>
-          <Typography variant="body2" component="p">Data Management & Amazon FBA Specialist</Typography>
+          <Typography variant="body2" component="p">&copy; 2026 Muhammad Abbas. All rights reserved.</Typography>
+          <Typography variant="body2" component="p">Computer Science Student & Frontend Developer</Typography>
         </Box>
       </Container>
     </Box>
