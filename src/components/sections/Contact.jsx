@@ -70,7 +70,7 @@ const Contact = () => {
                   <AccessTimeIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Availability</Typography>
-                    <Typography variant="body1">Monday - Friday: 9 AM - 6 PM (EST)</Typography>
+                    <Typography variant="body1">Currently: All Time </Typography>
                   </Box>
                 </Box>
               </Paper>
