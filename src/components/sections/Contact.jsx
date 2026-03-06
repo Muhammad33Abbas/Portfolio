@@ -22,7 +22,7 @@ const Contact = () => {
         <FadeIn>
           <SectionTitle 
             title="Let's Work Together" 
-            subtitle="Ready to discuss your data management or Amazon FBA project? Get in touch today." 
+            subtitle="Interested in collaborating or have a question? I'm just a message away." 
           />
         </FadeIn>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                   <EmailIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Email</Typography>
-                    <Typography variant="body1">BasirKhan@gmail.com</Typography>
+                    <Typography variant="body1">muhammad60524@gmail.com</Typography>
                   </Box>
                 </Box>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                   <PhoneIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Phone</Typography>
-                    <Typography variant="body1">+92 (345) 47-60524</Typography>
+                    <Typography variant="body1">03-45-4760524</Typography>
                   </Box>
                 </Box>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                   <LocationOnIcon sx={{ fontSize: '1.3rem', mr: 2, color: 'action.hover' }} />
                   <Box>
                     <Typography variant="subtitle2" sx={{ fontWeight: 700 }}>Location</Typography>
-                    <Typography variant="body1">Available for remote work worldwide</Typography>
+                    <Typography variant="body1">KPK, Swat, Matta</Typography>
                   </Box>
                 </Box>
 

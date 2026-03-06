@@ -2,44 +2,44 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 import { 
+  Code as CodeIcon,
+  Devices as DevicesIcon,
   Storage as StorageIcon,
-  Dns as DnsIcon,
-  Storefront as StorefrontIcon,
-  Sell as SellIcon,
-  Security as SecurityIcon,
-  Search as SearchIcon
+  CloudQueue as CloudQueueIcon,
+  Source as SourceIcon,
+  Terminal as TerminalIcon
 } from '@mui/icons-material';
 
 const skills = [
   {
-    icon: <DnsIcon sx={{ fontSize: '2.5rem' }} />,
-    title: 'Computer Operations',
-    desc: 'Expertise in system administration, hardware troubleshooting, and network management for seamless business operations.'
+    icon: <CodeIcon sx={{ fontSize: '2.5rem' }} />,
+    title: 'Languages',
+    desc: 'Proficient in HTML5, CSS3, and JavaScript (ES6+) for building modern, responsive web applications.'
+  },
+  {
+    icon: <DevicesIcon sx={{ fontSize: '2.5rem' }} />,
+    title: 'Frontend Frameworks',
+    desc: 'Expertise in React.js, Bootstrap 5, and Material UI (MUI) to create sleek and interactive user interfaces.'
+  },
+  {
+    icon: <CloudQueueIcon sx={{ fontSize: '2.5rem' }} />,
+    title: 'Backend & Database',
+    desc: 'Experience with Node.js, Express.js, and Firebase (BaaS) for scalable server-side development and data storage.'
+  },
+  {
+    icon: <TerminalIcon sx={{ fontSize: '2.5rem' }} />,
+    title: 'React Ecosystem',
+    desc: 'Skilled in using React Router for navigation and React Hook Form for efficient form management.'
+  },
+  {
+    icon: <SourceIcon sx={{ fontSize: '2.5rem' }} />,
+    title: 'Tools & APIs',
+    desc: 'Familiar with Git/GitHub for version control and collaborating through RESTful APIs.'
   },
   {
     icon: <StorageIcon sx={{ fontSize: '2.5rem' }} />,
-    title: 'Data Management',
-    desc: 'Comprehensive data handling, cleansing, and structuring to ensure accuracy and accessibility for business intelligence.'
-  },
-  {
-    icon: <StorefrontIcon sx={{ fontSize: '2.5rem' }} />, // Closest to Amazon brand generic
-    title: 'Amazon FBA',
-    desc: 'Full-service Amazon FBA management including product research, listing optimization, inventory management, and PPC campaigns.'
-  },
-  {
-    icon: <SellIcon sx={{ fontSize: '2.5rem' }} />,
-    title: 'Wholesale PL',
-    desc: 'Strategic wholesale and private label development with proven success in product sourcing, branding, and market penetration.'
-  },
-  {
-    icon: <SecurityIcon sx={{ fontSize: '2.5rem' }} />,
-    title: 'NEBOSH Safety',
-    desc: 'Certified in workplace safety and compliance, ensuring operational environments meet international safety standards.'
-  },
-  {
-    icon: <SearchIcon sx={{ fontSize: '2.5rem' }} />,
-    title: 'SEO Optimization',
-    desc: 'Comprehensive SEO strategies including keyword research, on-page optimization, and content strategy for improved visibility.'
+    title: 'Productivity',
+    desc: 'Competent in using MS Office for documentation and general administrative tasks.'
   }
 ];
 

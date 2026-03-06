@@ -3,10 +3,11 @@ import { Box, Container, Typography, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 
 const educationData = [
-  { year: '2023', title: 'NEBOSH International General Certificate', school: 'National Examination Board in Occupational Safety and Health', desc: 'Comprehensive workplace safety and risk management certification' },
-  { year: '2021', title: 'Amazon FBA Mastery Certification', school: 'E-commerce Business Institute', desc: 'Specialized training in Amazon FBA, wholesale, and private label business models' },
-  { year: '2019', title: 'Data Management Professional', school: 'International Data Management Association', desc: 'Advanced data governance, quality management, and analytics techniques' },
-  { year: '2016', title: 'Bachelor of Computer Science', school: 'University of Technology, Sydney', desc: 'Specialization in information systems and data management' },
+  { year: '2025 – 2027', title: 'ADS CS', school: 'Swat University', desc: 'Currently pursuing an Associate Degree of Science in Computer Science.' },
+  { year: '2023 – 2025', title: 'FSC (In CS)', school: 'Swat board', desc: 'Higher Secondary School Certificate with a focus on Computer Science.' },
+  { year: '2023', title: 'Matric', school: 'Swat board', desc: 'Secondary School Certificate.' },
+  { year: '2023', title: 'Diploma In Information Technology', school: 'DIT', desc: 'Professional diploma covering essential IT skills and applications.' },
+  { year: '2021', title: 'Advance certificate Information technology', school: 'ACIT', desc: 'Advanced certification in information technology systems.' },
 ];
 
 const Education = () => {

@@ -94,7 +94,7 @@ const Hero = () => {
                   }}
                 >
                   <Box component="span" sx={{ width: { xs: '30px', md: '40px' }, height: '2px', bgcolor: '#3182ce' }} />
-                  Data Management & Amazon FBA
+                  Frontend Developer & Computer Science Student
                 </Typography>
 
                 <Typography 
@@ -117,9 +117,9 @@ const Hero = () => {
                     fontFamily: "'Montserrat', sans-serif"
                   }}
                 >
-                  Transforming Data <br/>
+                  Muhammad <br/>
                   <Box component="span" sx={{ color: '#3182ce', WebkitTextFillColor: '#3182ce' }}>
-                     Into Growth
+                     Abbas
                   </Box>
                 </Typography>
                 
@@ -136,7 +136,7 @@ const Hero = () => {
                     fontWeight: 400
                   }}
                 >
-                  I specialize in precise data management and optimized Amazon FBA strategies that drive accuracy, efficiency, and measurable business success.
+                  To learn something more in practice and to obtain an entry level position in organization with high moral attitude and with great moto to implement my ability and skills in fartile environment and to bring a prospective shine in my approach.
                 </Typography>
                 
                 <Box 

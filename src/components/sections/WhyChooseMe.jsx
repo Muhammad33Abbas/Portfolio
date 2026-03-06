@@ -2,32 +2,32 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 import { 
-  CheckCircle as CheckCircleIcon, 
-  Lightbulb as LightbulbIcon, 
-  Security as SecurityIcon, 
-  Chat as ChatIcon 
+  Code as CodeIcon, 
+  Psychology as UserIcon, 
+  Terminal as TerminalIcon, 
+  Groups as GroupsIcon 
 } from '@mui/icons-material';
 
 const reasons = [
   {
-    icon: <CheckCircleIcon sx={{ fontSize: '1.5rem' }} />,
-    title: 'Detail-Oriented',
-    desc: 'Meticulous attention to detail ensures exceptional accuracy in all deliverables.'
+    icon: <CodeIcon sx={{ fontSize: '1.5rem' }} />,
+    title: 'Clean Code',
+    desc: 'Writing maintainable, scalable, and well-documented code following latest standards.'
   },
   {
-    icon: <LightbulbIcon sx={{ fontSize: '1.5rem' }} />,
-    title: 'Business-Focused',
-    desc: 'Strong understanding of digital business models and revenue optimization strategies.'
+    icon: <UserIcon sx={{ fontSize: '1.5rem' }} />,
+    title: 'User-Centric',
+    desc: 'Designing interfaces and workflows with a deep focus on user experience and accessibility.'
   },
   {
-    icon: <SecurityIcon sx={{ fontSize: '1.5rem' }} />,
-    title: 'Safety-Conscious',
-    desc: 'NEBOSH-certified with a focus on compliance and workplace safety standards.'
+    icon: <TerminalIcon sx={{ fontSize: '1.5rem' }} />,
+    title: 'Modern Stack',
+    desc: 'Leveraging modern frameworks and tools like React, Node.js, and Firebase for high performance.'
   },
   {
-    icon: <ChatIcon sx={{ fontSize: '1.5rem' }} />,
-    title: 'Client-Centered',
-    desc: 'Clear communication and collaborative approach to ensure client objectives are met.'
+    icon: <GroupsIcon sx={{ fontSize: '1.5rem' }} />,
+    title: 'Team Player',
+    desc: 'Excellent communicator with a collaborative mindset for seamless project delivery.'
   }
 ];
 

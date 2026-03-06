@@ -2,32 +2,32 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 import {
-  CenterFocusStrong as CenterFocusStrongIcon,
-  BarChart as BarChartIcon,
-  Store as StoreIcon,
-  ContentPasteSearch as ContentPasteSearchIcon
+  ShoppingCart as ShoppingCartIcon,
+  Checklist as ChecklistIcon,
+  Dashboard as DashboardIcon,
+  Web as WebIcon
 } from '@mui/icons-material';
 
 const highlights = [
   {
-    icon: <CenterFocusStrongIcon sx={{ fontSize: '2.2rem' }} />,
-    title: 'Data Accuracy Excellence',
-    desc: 'Maintained 99.8% data accuracy across multiple client projects through meticulous quality control processes.'
+    icon: <ShoppingCartIcon sx={{ fontSize: '2.2rem' }} />,
+    title: 'Ecommerce Website',
+    desc: 'A full-featured ecommerce platform with product search, cart functionality, and responsive design.'
   },
   {
-    icon: <BarChartIcon sx={{ fontSize: '2.2rem' }} />,
-    title: 'Process Optimization',
-    desc: 'Reduced data processing time by 40% through implementation of automated systems and streamlined workflows.'
+    icon: <ChecklistIcon sx={{ fontSize: '2.2rem' }} />,
+    title: 'Todo App',
+    desc: 'Functional task management application with a clean UI, local storage, and real-time updates.'
   },
   {
-    icon: <StoreIcon sx={{ fontSize: '2.2rem' }} />,
-    title: 'Amazon FBA Growth',
-    desc: 'Increased client Amazon FBA sales by 220% within 12 months through optimized listings and strategic PPC campaigns.'
+    icon: <DashboardIcon sx={{ fontSize: '2.2rem' }} />,
+    title: 'Taskify Dashboard',
+    desc: 'Interactive productivity dashboard integrated with Firebase for secure data handling and analytics.'
   },
   {
-    icon: <ContentPasteSearchIcon sx={{ fontSize: '2.2rem' }} />,
-    title: 'SEO Performance',
-    desc: 'Improved organic search traffic by 180% for e-commerce clients through comprehensive keyword and content strategies.'
+    icon: <WebIcon sx={{ fontSize: '2.2rem' }} />,
+    title: 'Portfolio Website',
+    desc: 'A modern, high-performance professional portfolio showcasing my technical skills and creative work.'
   }
 ];
 
@@ -37,8 +37,8 @@ const Experience = () => {
       <Container maxWidth="lg">
         <FadeIn>
           <SectionTitle 
-            title="Key Experience & Highlights" 
-            subtitle="Notable achievements and measurable results in data management and e-commerce" 
+            title="Featured Projects" 
+            subtitle="Explore some of my latest work, demonstrating my technical proficiency and problem-solving skills." 
           />
         </FadeIn>
 

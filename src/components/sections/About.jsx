@@ -9,7 +9,7 @@ const About = () => {
         <FadeIn>
           <SectionTitle 
             title="About Me" 
-            subtitle="Professional data specialist with extensive experience in computer operations, data management, and Amazon FBA business development" 
+            subtitle="I am a passionate Computer Science student and Frontend Developer dedicated to building functional and beautiful web applications." 
           />
         </FadeIn>
 
@@ -61,19 +61,15 @@ const About = () => {
                 </Typography>
                 
                 <Typography variant="body1" sx={{ fontSize: '1.1rem', mb: 2.5 }}>
-                  I am a results-driven professional with over 8 years of experience in computer operations and data management, combined with specialized expertise in Amazon FBA, Wholesale, and Private Label business models.
+                  To learn something more in practice and to obtain an entry level position in organization with high moral attitude and with great moto to implement my ability and skills in fartile environment and to bring a prospective shine in my approach.
                 </Typography>
                 
                 <Typography variant="body1" sx={{ fontSize: '1.1rem', mb: 2.5 }}>
-                  My work is characterized by meticulous attention to detail, strong analytical capabilities, and a commitment to optimizing processes for maximum efficiency and quality. I excel at transforming complex data into actionable business insights.
+                  I focus on creating clean, efficient code and user-friendly interfaces. My technical journey involves exploring modern web technologies and applying them to solve real-world problems.
                 </Typography>
                 
                 <Typography variant="body1" sx={{ fontSize: '1.1rem', mb: 2.5 }}>
-                  My approach combines technical proficiency with strategic business thinking, ensuring that every project I undertake not only meets but exceeds expectations. I'm passionate about helping businesses streamline operations, improve data accuracy, and accelerate growth through optimized e-commerce strategies.
-                </Typography>
-                
-                <Typography variant="body1" sx={{ fontSize: '1.1rem' }}>
-                  I stay current with industry trends and continuously seek opportunities for professional development, including my NEBOSH safety certification which underscores my commitment to workplace safety and compliance.
+                  I am constantly learning and adapting to new frameworks and libraries, ensuring that my development skills remain sharp and up-to-date with industry standards.
                 </Typography>
               </Box>
             </FadeIn>

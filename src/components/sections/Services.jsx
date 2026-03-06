@@ -2,44 +2,44 @@ import React from 'react';
 import { Box, Container, Typography, Grid, Paper } from '@mui/material';
 import { FadeIn, SectionTitle } from '../common/Components';
 import { 
-  Keyboard as KeyboardIcon,
-  Computer as ComputerIcon,
-  ShoppingCart as ShoppingCartIcon,
-  Inventory as InventoryIcon,
-  TrendingUp as TrendingUpIcon,
-  HealthAndSafety as HealthAndSafetyIcon
+  Code as CodeIcon,
+  Devices as DevicesIcon,
+  Storage as StorageIcon,
+  Layers as LayersIcon,
+  Speed as SpeedIcon,
+  GitHub as GitHubIcon
 } from '@mui/icons-material';
 
 const services = [
   {
-    icon: <KeyboardIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'Data Entry & Management',
-    desc: 'Precise data entry, control, and structured data management services with guaranteed accuracy and timely delivery.'
+    icon: <CodeIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'Frontend Development',
+    desc: 'Building responsive and interactive user interfaces using React.js and modern JavaScript (ES6+).'
   },
   {
-    icon: <ComputerIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'Computer Operations',
-    desc: 'Administrative support, system management, and technical operations to ensure seamless business functionality.'
+    icon: <DevicesIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'Web Design',
+    desc: 'Creating visually stunning and user-friendly designs with Material UI (MUI) and custom CSS.'
   },
   {
-    icon: <ShoppingCartIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'Amazon FBA Management',
-    desc: 'Complete Amazon FBA account management, product research, listing optimization, and performance analytics.'
+    icon: <LayersIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'State Management',
+    desc: 'Implementing efficient data flow and state management using Context API and React Hook Form.'
   },
   {
-    icon: <InventoryIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'Wholesale & PL Support',
-    desc: 'Strategic business support for wholesale and private label ventures including sourcing, branding, and scaling.'
+    icon: <StorageIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'Backend Integration',
+    desc: 'Powering applications with Node.js, Express, and Firebase for real-time data and authentication.'
   },
   {
-    icon: <TrendingUpIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'SEO Services',
-    desc: 'Keyword research, on-page SEO, content optimization, and performance tracking to improve search visibility.'
+    icon: <SpeedIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'Performance Optimization',
+    desc: 'Ensuring fast load times and smooth performance through clean code and efficient asset handling.'
   },
   {
-    icon: <HealthAndSafetyIcon sx={{ fontSize: '1.8rem' }} />,
-    title: 'Safety Compliance',
-    desc: 'Workplace safety compliance and awareness support based on NEBOSH certification and industry best practices.'
+    icon: <GitHubIcon sx={{ fontSize: '1.8rem' }} />,
+    title: 'Version Control',
+    desc: 'Managing project workflows and collaborations using Git and GitHub for organized development.'
   }
 ];
 
@@ -49,8 +49,8 @@ const Services = () => {
       <Container maxWidth="lg">
         <FadeIn>
           <SectionTitle 
-            title="Professional Services" 
-            subtitle="Comprehensive solutions tailored to business needs across data management, e-commerce, and compliance" 
+            title="My Expertise" 
+            subtitle="I offer a wide range of web development services to help you build modern and scalable applications." 
           />
         </FadeIn>
 
