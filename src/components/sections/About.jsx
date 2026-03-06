@@ -23,6 +23,7 @@ const About = () => {
                 position: 'relative',
                 height: { xs: '300px', md: '500px' }, // Explicit height
                 width: '100%',
+                mx: 'auto',
                 '&:before': {
                   content: '""',
                   position: 'absolute',
@@ -43,11 +44,9 @@ const About = () => {
                   '&:hover': {
                     transform: 'scale(1.05)',
                   },
-                  backgroundImage: 'url(/Images/Abbas.png)'
-                  // If using an image later:
-                  // backgroundImage: 'url(...)',
-                  // backgroundSize: 'cover',
-                  // backgroundPosition: 'center',
+                  backgroundImage: 'url(/Images/Abbas.png)',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'top center',
                 }} />
               </Box>
             </FadeIn>

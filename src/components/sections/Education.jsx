@@ -6,7 +6,7 @@ const educationData = [
   { year: '2025 – 2029', title: 'BS CS', school: 'Swat University', desc: 'Currently pursuing a Bachelor of Science (BS) in Computer Science.' },
   { year: '2023 – 2025', title: 'FSC (In CS)', school: 'Swat board', desc: 'Higher Secondary School Certificate with a focus on Computer Science.' },
   { year: '2023', title: 'Matric', school: 'Swat board', desc: 'Secondary School Certificate.' },
-  { year: '2023', title: 'Diploma In Information Technology', school: 'DIT', desc: 'Professional diploma covering essential IT skills and applications.' },
+  { year: '2023', title: 'Diploma In Information Technology', school: 'Govt: Commerce College ', desc: 'Professional diploma covering essential IT skills and applications.' },
   { year: '2021', title: 'Advance certificate Information technology', school: 'ACIT', desc: 'Advanced certification in information technology systems.' },
 ];
 
@@ -47,7 +47,7 @@ const Education = () => {
                 pr: { xs: 0, md: index % 2 === 0 ? 'calc(50% + 30px)' : 0 },
               }}
             >
-              <FadeIn delay={index * 0.1}>
+              <FadeIn delay={index * 0.1} sx={{ width: '100%' }}>
                 {/* Timeline Dot positioned relative to content or absolute */}
                 <Box 
                   sx={{
@@ -66,7 +66,7 @@ const Education = () => {
                 <Paper
                   elevation={0}
                   sx={{
-                    p: 3.75, // 30px
+                    p: 3.75, 
                     borderRadius: '12px',
                     boxShadow: '0 10px 30px rgba(0, 0, 0, 0.08)',
                     width: '100%',
